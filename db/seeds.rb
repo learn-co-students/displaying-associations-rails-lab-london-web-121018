@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+clickbait = Artist.create!(name: "Rihanna")
+clickbait.songs.create!(title: "Umbrella")
+clickbait.songs.create!(title: "Shut up and Drive")
+clickbait.songs.create!(title: "Rehab")
+
+movies = Artist.create!(name: "Ariana Grande")
+movies.songs.create!(title: "No tears left to cry")
